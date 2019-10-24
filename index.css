@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+nav{background-color: black;
+}
+
+a{
+    font-size: 2.0em;
+    /*border: ridge 0.5px white;*/
+    margin-left: 20px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+/* Centralizando menu */
+#navbar {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  nav#navbar a{
+    color: #6E6E6E;/*cor das letras do nav */
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+  }
+  nav#navbar a:hover{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div#footer{
+background-color:black;
+
+}
+
+
+/*CARDS*/
+
+/*links dos Cards*/
+div.card-deck a{
+font-size: 25px;
+font-weight: bold;
+color: black;
+text-align:left;
+
+}
